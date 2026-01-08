@@ -20,27 +20,46 @@ The dataset contains demographic, financial, and campaign-related features such 
 
 Project Structure
 bank-marketing-ml/
+
 │── data/
 │   ├── bank-full.csv
+
 │   └── processed/
+
 │       ├── X_train.csv
+
 │       ├── X_test.csv
+
 │       ├── y_train.csv
+
 │       ├── y_test.csv
+
 │       └── high_probability_customers.csv
-│── notebooks/
-│   ├── 01_data_cleaning_and_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_machine_learning_models.ipynb
-│   └── 04_insights_and_recommendations.ipynb
+
+│── 01_data_cleaning_and_eda.ipynb
+
+│── 02_feature_engineering.ipynb
+
+│── 03_machine_learning_models.ipynb
+
+│── 04_insights_and_recommendations.ipynb
+
 │── models/
+
 │   └── best_model.joblib
+
 │── visuals/
+
 │   ├── term_deposit_distribution.png
+
 │   ├── roc_curves_comparison.png
+
 │   ├── feature_importance.png
+
 │   └── confusion_matrix_logistic.png
+
 │── README.md
+
 
 Methodology
 1. Data Cleaning & Exploratory Data Analysis
