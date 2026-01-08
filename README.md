@@ -22,6 +22,7 @@ Project Structure
 bank-marketing-ml/
 
 │── data/
+
 │   ├── bank-full.csv
 
 │   └── processed/
